@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>神経衰弱ゲーム ゲーム画面</title>
+    <link rel="icon" href="favicon.ico">
+    <style>
+        h1{
+            text-align: center;
+            font-family: '游明朝';
+        }
+        .button-center{
+            text-align: center;
+        }
+        button{
+            width: 150px;
+            height: 30px;
+        }
+        img{
+            width: 100px;
+        }
+        *{
+            box-sizing: border-box;
+        } 
+        body{
+            margin: 0;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            width: 100vw;
+            height: 100vh;
+            background-color: skyblue;
+        }
+        .game-py{
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            flex-wrap: wrap;
+            width: 500px;
+        }
+        .game-card{
+            width: 100px;
+            height: 100px;
+            color: transparent;       
+            background-color: greenyellow;
+            display: flex;
+            font-size: xx-large;
+            font-weight: bold;
+            align-items: center;
+            justify-content: center;
+            border: 2px solid black;
+            border-radius: 10px;
+            cursor: pointer;
+            margin:3px;
+            -webkit-user-select: none;
+            user-select: none;
+        }  
+        .show{
+            color: black; 
+            background-color: white;
+        }
+    </style>
+</head>
+<body>
+    <div class="wrapper">
+        <h1>神経衰弱ゲーム</h1><br>
+        <div class="game">
+            <div id="timer"></div>
+            <div class="game-py"></div>
+        </div>
+    </div>
+    <script type="text/javascript" src="Last-task page2.js"></script>
+</body>
+</html>
